@@ -1,6 +1,6 @@
 {
   "name": "hallvardlh-react-native-drawer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib\\commonjs\\index.js",
   "scripts": {
     "start": "expo start",
@@ -11,13 +11,11 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-native": "0.72.6",
     "react-native-gesture-handler": "^2.13.3"
   },
   "peerDependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-native": "0.72.6",
     "react-native-gesture-handler": "^2.13.3"
   },

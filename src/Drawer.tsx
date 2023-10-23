@@ -1,12 +1,12 @@
 import React, { forwardRef, useRef, useState, useImperativeHandle, ReactNode } from "react";
-import { Animated, Easing, Dimensions, Modal, View, Pressable, SafeAreaView } from "react-native";
+import { Animated, Easing, Dimensions, Modal, View, Pressable, SafeAreaView, StyleProp, ViewStyle } from "react-native";
 import { PanGestureHandler, State, GestureHandlerRootView } from "react-native-gesture-handler";
 
 interface DrawerProps {
     children?: ReactNode;
     side?: "left" | "right";
     width?: string;
-    containerStyle?: object;
+    containerStyle?: StyleProp<ViewStyle>;
     maxWidth?: string;
     backgroundColor?: string;
     onStateChange?: (isOpen: boolean) => void;
