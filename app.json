@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DrawerLibrary",
-    "slug": "DrawerLibrary",
+    "name": "hallvardlh-react-native-drawer",
+    "slug": "hallvardlh-react-native-drawer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
