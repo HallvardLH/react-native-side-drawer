@@ -4,6 +4,8 @@ A customizable side drawer component for React Native. The drawer has no boilerp
 
 [![npm version](https://badge.fury.io/js/hallvardlh-react-native-drawer.svg)](https://badge.fury.io/js/hallvardlh-react-native-drawer)
 
+![GIF demonstration of the drawer](./example.gif)
+
 ## Table of Contents
 
 - [Installation](#installation)
