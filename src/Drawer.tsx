@@ -207,7 +207,7 @@ const Drawer = forwardRef((props: DrawerProps, ref) => {
                                 }, containerStyle]}
                             >
                                 <SafeAreaView style={{flex: 1}}>
-                                {children}
+                                    {children}
                                 </SafeAreaView>
                             </Animated.View>
                         </PanGestureHandler>
