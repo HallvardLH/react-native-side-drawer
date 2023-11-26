@@ -45,7 +45,6 @@ const Drawer = forwardRef((props: DrawerProps, ref) => {
     let drawerMaxWidth: number;
     if(isPx(maxWidth)) {
         const pxValue = parseInt(maxWidth.slice(0, -1), 10);
-        console.log(pxValue)
         drawerMaxWidth = Math.min(pxValue, windowWidth);
     } else if(isPerc(maxWidth)) {
         drawerMaxWidth = (parseInt(maxWidth.toString()) / 100) * windowWidth;
